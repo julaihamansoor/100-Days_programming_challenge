@@ -1,0 +1,42 @@
+List Methods that modify in place (return None)
+
+⚠️ Do not assign them to variables!
+--------------------------------------
+
+list.sort() → sorts the list in place (ascending by default)
+
+list.reverse() → reverses the list in place
+
+list.clear() → removes all elements (list becomes empty)
+
+list.append(x) → adds a single element at the end
+
+list.extend(iterable) → adds multiple elements at the end
+
+list.insert(i, x) → inserts at a specific index
+
+list.remove(x) → removes the first occurrence of x
+
+list.pop(i) → removes and returns the element at index i (default last one)
+
+
+List Methods that return a value
+------------------------------------
+
+These you can safely assign to variables.
+
+len(list) → length of list
+
+sum(list) → sum of elements
+
+min(list) / max(list) → smallest / largest element
+
+list.copy() → returns a shallow copy
+
+list.count(x) → returns how many times x occurs
+
+list.index(x) → returns the first index of x
+
+sorted(list) → returns a new sorted list (does not modify original)
+
+reversed(list) → returns an iterator (you can convert to list)
